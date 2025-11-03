@@ -30,12 +30,31 @@ Below, we've provided an outline for your response but feel free to modify it as
 
 ### Response
 
-[Replace with your explanation of the concept with an analogy]
+According to MDN, a function is a reusable block of code that performs a task when it is called.
+
+You can think of a function like a microwave. You put something in (input), the microwave does some work, and then you get a result (output). You can use the microwave again whenever you need it — just like calling a function.
 
 Check out this example:
 
 ```js
-// Add your example here
+// Arrow function that says hello to someone
+
+const sayHello = (name) => {
+  return `Hello, ${name}!`;
+};
+
+// Calling the function
+console.log(sayHello("Alex")); // Output: Hello, Alex!
 ```
 
-[Replace with your explanation of the example and explanation of the syntax]
+Here’s what the syntax means:
+
+const sayHello = (name) => {} is an arrow function
+
+name is the parameter — the value the function needs
+
+The curly braces { } form the code block — the instructions that run
+
+The return statement sends back the final result from the function
+
+Writing sayHello("Alex") is how we call/invoke the function so it actually runs
